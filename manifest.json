@@ -1,6 +1,6 @@
 {
 
-  "manifest_version": 1,
+  "manifest_version": 2,
   "name": "CO-OP Shop",
   "version": "1.0",
 
@@ -12,5 +12,4 @@
       "js": ["coopshop.js"]
     }
   ]
-
 }

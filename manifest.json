@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 1,
+  "name": "CO-OP Shop",
+  "version": "1.0",
+
+  "description": "Allows friends to shop together and easily split the bill",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.coop.se/*"],
+      "js": ["coopshop.js"]
+    }
+  ]
+
+}
